@@ -4,12 +4,12 @@
   background: #707070;
  }
  
- .container {
+ .sub_container {
   width: 500px;
   margin: 0 auto;
  }
 
- form {
+ .my_form {
   background: white;
   box-sizing: border-box;
   padding: 50px 20px;
@@ -21,8 +21,8 @@
   margin: 0 auto;
  }
 
- h2 {
-  color: #46A358;
+ .heder_myForm {
+  color: aquamarine;
   font-size: 20px;
   font-weight: 700;
   text-align: center;
@@ -45,15 +45,15 @@
   color: #A5A5A5;
  }
 
- input {
+ .input1 {
   padding: 12px 14px;
   width: 100%;
   margin-top: 16px;
   border-radius: 8px;
  }
 
-  button {
-  background-color: #46A358;
+  .butt1 {
+  background-color: aquamarine;
   margin-top: 30px;
   width: 100%;
   padding: 20px;
@@ -67,3 +67,41 @@
   padding: 15px;
   border-radius: 8px;
  }
+
+ .span_login {
+  color: #3D3D3D;
+ }
+
+ .header {
+  padding: 20px 0;
+  background: black;
+  color: white;
+  text-align: center;
+ }
+
+ .header_title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.header_list a {
+  color: aquamarine;
+}
+
+.main {
+  padding: 40px;
+  background: #a81616;
+}
+
+.footer {
+  background: black;
+  padding: 57px;
+  color: white;
+}
+
+.footer p {
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 15px;
+}
